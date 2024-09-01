@@ -3,10 +3,10 @@
     "version": "1.0.2",
     "description": "This is just a test for posting packages on github",
     "main": "./dist/index.js",
-    "types": "./src/index.d.ts",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "test": "jest",
-        "build": "tsc"
+        "build": "tsc --declaration"
     },
     "repository": {
         "type": "git",
